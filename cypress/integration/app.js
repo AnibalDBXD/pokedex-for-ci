@@ -2,7 +2,7 @@
 
 describe('Pokdex', () => {
   it('Front page can be opened', () => {
-    cy.visit('http://localhost:3000/')
+    cy.visit('http://localhost:5000/')
     cy.contains('pikachu')
   })
 })
